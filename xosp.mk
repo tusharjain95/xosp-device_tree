@@ -24,6 +24,8 @@ $(call inherit-product, vendor/xosp/config/nfc_enhanced.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/xosp/config/common_full_phone.mk)
 
+$(call inherit-product, vendor/xosp/config/xosp.mk)
+
 PRODUCT_NAME := xosp_bacon
 PRODUCT_DEVICE := bacon
 PRODUCT_MANUFACTURER := OnePlus
